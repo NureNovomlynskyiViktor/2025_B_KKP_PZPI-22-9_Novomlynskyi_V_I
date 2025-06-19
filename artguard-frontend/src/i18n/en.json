@@ -1,0 +1,57 @@
+{
+  "login": {
+    "title": "Login",
+    "email": "Email",
+    "password": "Password",
+    "google": "Sign In with Google",
+    "submit": "Sign In"
+  },
+  "homepage": {
+    "tagline": "Digital guardian of cultural heritage",
+    "whyPreserve": "Why is it important to preserve art exhibits?",
+    "whyPreserveDesc": "Each exhibit carries history, emotion, and cultural value. Preserving art is preserving our identity.",
+    "footer": "© 2025 ArtGuard — preserving art together."
+  },
+  "navbar": {
+    "home": "Home",
+    "admin": "Admin Panel",
+    "logout": "Logout"
+  },
+  "admin": {
+    "title": "ArtGuard Admin Panel",
+    "backup": "Download Backup",
+    "import": "Import {{entity}}",
+    "stats": {
+      "users": "Users",
+      "museums": "Museums",
+      "zones": "Zones",
+      "objects": "Objects",
+      "sensors": "Sensors",
+      "measurements": "Measurements",
+      "unresolved": "Unresolved Alerts"
+    },
+    "sections": {
+      "users": "Users",
+      "museums": "Museums",
+      "zones": "Zones",
+      "objects": "Objects",
+      "sensors": "Sensors",
+      "thresholds": "Thresholds",
+      "measurements": "Measurements",
+      "alerts": "Alerts"
+    },
+    "entities": {
+      "users": "users",
+      "museums": "museums",
+      "zones": "zones",
+      "objects": "objects",
+      "sensors": "sensors",
+      "thresholds": "thresholds",
+      "measurements": "measurements",
+      "alerts": "alerts"
+    }
+  }
+
+}
+
+

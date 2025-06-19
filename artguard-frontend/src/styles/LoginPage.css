@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
+.login-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e6efff, #f9faff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+.login-box {
+  position: relative;
+  background: white;
+  padding: 2.5rem 2.8rem;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.login-box.animated {
+  animation: fadeInUp 0.8s ease both;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.login-box h2 {
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #2e2e2e;
+}
+
+.login-box input {
+  padding: 12px 14px;
+  border: 1px solid #ccd6dd;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: box-shadow 0.2s ease;
+}
+
+.login-box input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+}
+
+.login-box button {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.25s ease, transform 0.15s ease;
+}
+
+.login-box button:hover {
+  background-color: #0056b3;
+  transform: scale(1.02);
+}
+
+.lang-switch-wrapper {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.lang-switch {
+  background: #f5f7fc;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 0.85rem;
+  color: #333;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.lang-switch:hover {
+  background: #dbe9ff;
+  transform: translateY(-1px);
+}
+
+.error-msg {
+  background-color: #ffe0e0;
+  color: #b80000;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.google-btn {
+  background-color: #db4437;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.25s ease, transform 0.15s ease;
+}
+
+.google-btn:hover {
+  background-color: #c23321;
+  transform: scale(1.02);
+}
+
+
+
+

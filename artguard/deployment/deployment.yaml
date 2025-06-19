@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: artguard-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: artguard
+  template:
+    metadata:
+      labels:
+        app: artguard
+    spec:
+      containers:
+        - name: artguard
+          image: artguard-image  
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 3000
+          env:
+            - name: DB_USER
+              value: "postgres"
+            - name: DB_PASSWORD
+              value: "16072005"
+            - name: DB_HOST
+              value: "postgres"
+            - name: DB_PORT
+              value: "5432"
